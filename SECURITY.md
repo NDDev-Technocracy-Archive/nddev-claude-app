@@ -10,7 +10,7 @@ Only the latest numeric release is supported.
 ## Reporting a vulnerability
 
 Report vulnerabilities privately through
-[GitHub Security Advisories](https://github.com/NDDev-it-com/nddev-claude-app/security/advisories/new).
+[GitHub Security Advisories](https://github.com/rldyourmnd/nddev-claude-app/security/advisories/new).
 Do not publish exploit details, credentials, tokens, private configuration, or
 backup contents in an issue or pull request.
 

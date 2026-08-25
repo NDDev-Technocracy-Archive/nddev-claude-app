@@ -212,7 +212,7 @@ def main() -> int:
     if contract is not None:
         if contract.get("contract_version") != 1:
             errors.append("config/nddev-contract.json: contract_version must be 1")
-        if contract.get("github_repository") != "NDDev-it-com/nddev-claude-app":
+        if contract.get("github_repository") != "rldyourmnd/nddev-claude-app":
             errors.append("config/nddev-contract.json: unexpected github_repository")
         if contract.get("license") != "AGPL-3.0-or-later":
             errors.append("config/nddev-contract.json: license must be AGPL-3.0-or-later")
