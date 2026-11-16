@@ -71,6 +71,12 @@ closed until an exact bundle representation can preserve Claude's native
 marketplace and settings-merge semantics; supported composed components use
 only the declared Claude-native file surfaces.
 
+## Source validation
+
+Run `just check` for the dependency-free public contract validator and command
+formatting. `just verify` runs the same complete source validation. These commands
+do not execute a provider or modify a configuration directory.
+
 ## Layout
 
 - `cli-tools/nddev_claude.py` — the setup manager.
